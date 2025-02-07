@@ -2,21 +2,80 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Oxanium', cursive;
+	font-family: 'Padrao';
+	color: #111111;
+}
+
+@font-face {
+	font-family: 'Padrao';
+	src: url('font/digital-7.ttf');
 }
 
 main {
-	background-image: linear-gradient(to bottom, #6ab7f5, #F6F6F6);
-}
-
-section {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+	background-image: linear-gradient(to bottom, #6ab7f5, #F6F6F6);
+	background-size: cover;
+}
+
+section {
+	position: relative;
+	display: inline-block;
 	padding: .5rem;
 }
 
 .pokedex {
 	max-width: 100%;
+}
+
+.pokemon {
+	position: absolute;
+	top: 5%;
+	left: 38%;
+	height: 20%;
+	transform: translate(25%, 45%);
+}
+
+.data {
+	position: absolute;
+	top: 61%;
+	left: 41.2%;
+	text-align: center;
+}
+
+.numero {
+	font-size: 7rem;
+	margin-bottom: 1rem;
+}
+
+.nome {
+	font-size: 3rem;
+}
+
+.form  {
+	position: absolute;
+	top: 53.9%;
+	left: 41.5%;
+}
+
+.pesquisar {
+	outline: none;
+	padding: 3%;
+}
+
+.botoes {
+	position: absolute;
+	top: 70.5%;
+	left: 12.3%;
+	display: flex;
+	gap: .3rem;
+}
+
+.botao {
+	color: transparent;
+	background-image: linear-gradient(to bottom, #5B702D, #9BC547);
+	border-radius: 1rem;
+	padding: 1rem 1.3rem;
 }

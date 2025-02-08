@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Padrao';
+	font-family: Arial, Helvetica, sans-serif;
 	color: #111111;
 }
 
@@ -32,50 +32,56 @@ section {
 
 .pokemon {
 	position: absolute;
-	top: 5%;
-	left: 38%;
-	height: 20%;
+	top: 10%;
+	left: 43%;
+	height: 15%;
 	transform: translate(25%, 45%);
 }
+
 
 .data {
 	position: absolute;
 	top: 61%;
-	left: 41.2%;
-	text-align: center;
+	left: -0.5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
 }
 
 .numero {
+	font-family: 'Padrao';
 	font-size: 7rem;
 	margin-bottom: 1rem;
 }
 
 .nome {
+	font-family: 'Padrao';
 	font-size: 3rem;
 }
 
 .form  {
 	position: absolute;
 	top: 53.9%;
-	left: 41.5%;
+	left: 39.7%;
 }
 
 .pesquisar {
 	outline: none;
-	padding: 3%;
+	padding: .1rem;
 }
 
 .botoes {
 	position: absolute;
 	top: 70.5%;
-	left: 12.3%;
+	left: 12.9%;
 	display: flex;
 	gap: .3rem;
 }
 
 .botao {
-	color: transparent;
+	color: #014024;
 	background-image: linear-gradient(to bottom, #5B702D, #9BC547);
 	border-radius: 1rem;
-	padding: 1rem 1.3rem;
+	padding: 1rem 1.9rem;
 }

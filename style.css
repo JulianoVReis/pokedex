@@ -89,6 +89,10 @@ section {
 }
 
 @media screen and (max-width: 840px) {
+	section {
+		padding: .1rem;
+	}
+
 	.data {
 		position: absolute;
 		top: 59%;

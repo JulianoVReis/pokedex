@@ -88,7 +88,7 @@ section {
 	padding: 1rem 1.9rem;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 767px) {
 	section {
 		padding: .1rem;
 	}

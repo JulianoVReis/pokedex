@@ -95,8 +95,8 @@ section {
 
 	.data {
 		position: absolute;
-		top: 59%;
-		left: -0.5%;
+		top: 59.5%;
+		left: -1%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -130,7 +130,7 @@ section {
 	.botoes {
 		position: absolute;
 		top: 68%;
-		left: 12.4%;
+		left: 11.8%;
 		display: flex;
 		gap: .1rem;
 	}

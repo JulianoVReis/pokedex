@@ -134,9 +134,12 @@ section {
 		display: flex;
 		gap: .1rem;
 	}
+
+	.botoes img {
+		width: .6rem;
+	}
 	
 	.botao {
-		color: #014024;
 		background-image: linear-gradient(to bottom, #5B702D, #9BC547);
 		border-radius: 1rem;
 		padding: .5rem .8rem;

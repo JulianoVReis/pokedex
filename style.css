@@ -76,13 +76,16 @@ section {
 .botoes {
 	position: absolute;
 	top: 70.5%;
-	left: 12.9%;
+	left: 12.4%;
 	display: flex;
 	gap: .3rem;
 }
 
+.botoes img {
+	width: .8rem;
+}
+
 .botao {
-	color: #014024;
 	background-image: linear-gradient(to bottom, #5B702D, #9BC547);
 	border-radius: 1rem;
 	padding: 1rem 1.9rem;

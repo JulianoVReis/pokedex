@@ -133,7 +133,7 @@ section {
 	.botoes {
 		position: absolute;
 		top: 68.5%;
-		left: 11.8%;
+		left: 11%;
 		display: flex;
 		gap: 0.1rem;
 	}
